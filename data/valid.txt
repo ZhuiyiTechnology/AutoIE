@@ -76,10 +76,10 @@ E O
 聊 B-TV
 斋 I-TV
 志 I-TV
-异 E-TV
-2 B-NUM
-之 O
-胭 B-TV
+异 I-TV
+2 I-TV
+之 I-TV
+胭 I-TV
 脂 E-TV
 0 O
 4 O
@@ -132,10 +132,11 @@ E O
 4 O
 5 O
 
-托 O
-马 O
-斯 O
-1 B-NUM
+托 B-TV
+马 I-TV
+斯 I-TV
+1 I-TV
+4 E-TV
 
 ) O
 3 O
@@ -145,10 +146,10 @@ E O
 僵 B-TV
 尸 I-TV
 先 I-TV
-生 E-TV
-6 B-NUM
-之 O
-驱 B-TV
+生 I-TV
+6 I-TV
+之 I-TV
+驱 I-TV
 魔 I-TV
 警 I-TV
 察 E-TV
@@ -479,9 +480,9 @@ y E-TV
 笑 B-TV
 傲 I-TV
 江 I-TV
-湖 E-TV
-2 B-NUM
-东 B-TV
+湖 I-TV
+2 I-TV
+东 I-TV
 方 I-TV
 不 I-TV
 败 E-TV
@@ -558,8 +559,8 @@ P O
 3 O
 0 O
 4 O
-谢 O
-霆 B-PER
+谢 B-PER
+霆 I-PER
 锋 E-PER
 王 B-PER
 菲 E-PER
@@ -619,8 +620,8 @@ P O
 史 O
 
 龙 B-TV
-珠 E-TV
-改 B-TV
+珠 I-TV
+改 E-TV
 1 O
 6 O
 
@@ -823,9 +824,9 @@ _ O
 盗 B-TV
 墓 I-TV
 笔 I-TV
-记 E-TV
-之 O
-千 B-TV
+记 I-TV
+之 I-TV
+千 I-TV
 年 I-TV
 古 I-TV
 墓 E-TV
@@ -1224,12 +1225,12 @@ n O
 火 B-TV
 影 I-TV
 忍 I-TV
-者 E-TV
-[ O
-疾 B-TV
+者 I-TV
+[ I-TV
+疾 I-TV
 风 I-TV
-传 E-TV
-] O
+传 I-TV
+] E-TV
 [ O
 第 O
 2 O
@@ -1424,8 +1425,8 @@ _ O
 假 B-TV
 面 I-TV
 骑 I-TV
-士 E-TV
-D B-TV
+士 I-TV
+D I-TV
 e I-TV
 c I-TV
 a I-TV
@@ -2712,17 +2713,17 @@ d O
 灌 B-TV
 篮 I-TV
 高 I-TV
-手 E-TV
-（ O
-S B-TV
+手 I-TV
+（ I-TV
+S I-TV
 l I-TV
 a I-TV
 m I-TV
 D I-TV
 u I-TV
 n I-TV
-k E-TV
-） O
+k I-TV
+）E-TV
 日 O
 语 O
 版 O
@@ -3015,8 +3016,8 @@ _ O
 
 犬 B-TV
 夜 I-TV
-叉 E-TV
-完 B-TV
+叉 I-TV
+完 I-TV
 结 I-TV
 篇 E-TV
 0 O
@@ -3257,9 +3258,9 @@ P O
 变 B-TV
 形 I-TV
 金 I-TV
-刚 E-TV
-之 O
-超 B-TV
+刚 I-TV
+之 I-TV
+超 I-TV
 能 I-TV
 勇 I-TV
 士 E-TV
@@ -3404,9 +3405,9 @@ b O
 秦 B-TV
 时 I-TV
 明 I-TV
-月 E-TV
-之 O
-万 B-TV
+月 I-TV
+之 I-TV
+万 I-TV
 里 I-TV
 长 I-TV
 城 E-TV
@@ -3445,8 +3446,8 @@ _ O
 形 I-TV
 金 I-TV
 刚 E-TV
-2 B-NUM
-卷 B-TV
+2 I-TV
+卷 I-TV
 土 I-TV
 重 I-TV
 来 E-TV
@@ -4675,8 +4676,8 @@ M O
 重 O
 要 O
 性 O
-芈 B-TV
-月 E-TV
+芈 O
+月 O
 的 O
 7 O
 种 O
@@ -4791,10 +4792,10 @@ h O
 怖 O
 片 O
 
-二 B-PER
-龙 I-PER
-湖 I-PER
-浩 I-PER
+二 B-TV
+龙 I-TV
+湖 I-TV
+浩 I-TV
 哥 E-PER
 v O
 s O
@@ -4834,8 +4835,8 @@ _ O
 
 七 B-TV
 龙 I-TV
-珠 E-TV
-Z B-TV
+珠 I-TV
+Z E-TV
 2 O
 9 O
 1 O
@@ -6414,9 +6415,9 @@ _ O
 秦 B-TV
 时 I-TV
 明 I-TV
-月 E-TV
-之 O
-夜 B-TV
+月 I-TV
+之 I-TV
+夜 I-TV
 尽 I-TV
 天 I-TV
 明 E-TV
@@ -6815,9 +6816,9 @@ X O
 
 猪 B-TV
 猪 I-TV
-侠 E-TV
-之 O
-变 B-TV
+侠 I-TV
+之 I-TV
+变 I-TV
 身 I-TV
 战 I-TV
 队 E-TV
@@ -7054,9 +7055,9 @@ _ O
 1 O
 熊 B-TV
 出 I-TV
-没 E-TV
-之 O
-过 B-TV
+没 I-TV
+之 I-TV
+过 I-TV
 年 E-TV
 _ O
 高 O
@@ -7231,8 +7232,8 @@ y E-PER
 
 犬 B-TV
 夜 I-TV
-叉 E-TV
-完 B-TV
+叉 I-TV
+完 I-TV
 结 I-TV
 篇 E-TV
 0 O
@@ -7365,9 +7366,9 @@ y E-PER
 德 I-TV
 玛 I-TV
 西 I-TV
-亚 E-TV
-之 O
-超 B-TV
+亚 I-TV
+之 I-TV
+超 I-TV
 神 I-TV
 学 I-TV
 院 E-TV
@@ -7706,9 +7707,9 @@ v O
 云 B-TV
 南 I-TV
 虫 I-TV
-谷 E-TV
-之 O
-献 B-TV
+谷 I-TV
+之 I-TV
+献 I-TV
 王 I-TV
 传 I-TV
 说 E-TV
@@ -7990,8 +7991,8 @@ D O
 
 游 B-TV
 戏 I-TV
-王 E-TV
-5 B-TV
+王 I-TV
+5 I-TV
 D I-TV
 S E-TV
 3 O
@@ -8426,8 +8427,8 @@ B O
 
 七 B-TV
 龙 I-TV
-珠 E-TV
-Z B-TV
+珠 I-TV
+Z E-TV
 1 O
 8 O
 6 O
@@ -8450,8 +8451,8 @@ Z B-TV
 刚 I-TV
 葫 I-TV
 芦 I-TV
-娃 E-TV
-葫 B-TV
+娃 I-TV
+葫 I-TV
 芦 I-TV
 兄 I-TV
 弟 E-TV
@@ -8462,8 +8463,8 @@ Z B-TV
 大 B-TV
 话 I-TV
 西 I-TV
-游 E-TV
-大 B-TV
+游 I-TV
+大 I-TV
 圣 I-TV
 娶 I-TV
 亲 E-TV
@@ -8483,8 +8484,8 @@ Z B-TV
 傍 O
 
 龙 B-TV
-珠 E-TV
-G B-TV
+珠 I-TV
+G I-TV
 T E-TV
 0 O
 4 O
@@ -8513,8 +8514,8 @@ e O
 火 B-TV
 影 I-TV
 忍 I-TV
-者 E-TV
-疾 B-TV
+者 I-TV
+疾 I-TV
 风 I-TV
 传 E-TV
 第 O
@@ -8598,9 +8599,9 @@ e O
 国 I-TV
 英 I-TV
 雄 I-TV
-传 E-TV
-之 O
-关 B-TV
+传 I-TV
+之 I-TV
+关 I-TV
 公 E-TV
 0 O
 4 O
@@ -8896,8 +8897,8 @@ E O
 物 I-TV
 小 I-TV
 精 I-TV
-灵 E-TV
-D B-TV
+灵 I-TV
+D I-TV
 P E-TV
 1 O
 0 O
@@ -9237,8 +9238,8 @@ o O
 乐 I-TV
 大 I-TV
 本 I-TV
-营 E-TV
-快 B-TV
+营 I-TV
+快 I-TV
 乐 I-TV
 到 I-TV
 家 E-TV
@@ -9694,11 +9695,11 @@ i E-PER
 奇 I-TV
 妙 I-TV
 物 I-TV
-语 I-TV
-2 I-TV
-0 I-TV
-0 I-TV
-1 E-TV
+语 E-TV
+2 O
+0 O
+0 O
+1 O
 奇 B-TV
 迹 I-TV
 之 I-TV
@@ -9899,9 +9900,9 @@ _ O
 
 包 B-TV
 青 I-TV
-天 E-TV
-之 O
-白 B-TV
+天 I-TV
+之 I-TV
+白 I-TV
 玉 I-TV
 堂 I-TV
 传 I-TV
@@ -10844,8 +10845,8 @@ o O
 火 B-TV
 影 I-TV
 忍 I-TV
-者 E-TV
-疾 B-TV
+者 I-TV
+疾 I-TV
 风 I-TV
 传 E-TV
 2 O
@@ -10862,8 +10863,8 @@ o O
 猫 B-TV
 和 I-TV
 老 I-TV
-鼠 E-TV
-小 B-TV
+鼠 I-TV
+小 I-TV
 海 I-TV
 豹 I-TV
 失 I-TV
@@ -12240,8 +12241,8 @@ v O
 游 B-TV
 戏 I-TV
 王 E-TV
-5 B-NUM
-D B-TV
+5 I-TV
+D I-TV
 s E-TV
 第 O
 4 O
@@ -12411,8 +12412,8 @@ _ O
 第 B-NUM
 二 I-NUM
 季 E-NUM
-美 B-PER
-美 E-PER
+美 O
+美 O
 事 O
 件 O
 
@@ -12674,10 +12675,10 @@ _ O
 是 I-TV
 特 I-TV
 种 I-TV
-兵 E-TV
-2 B-NUM
-之 O
-利 B-TV
+兵 I-TV
+2 I-TV
+之 I-TV
+利 I-TV
 刃 I-TV
 出 I-TV
 鞘 E-TV
@@ -12694,9 +12695,9 @@ _ O
 片 O
 〗 O
 赌 B-TV
-圣 E-TV
-3 B-NUM
-无 B-TV
+圣 I-TV
+3 I-TV
+无 I-TV
 名 I-TV
 小 I-TV
 子 E-TV
@@ -13415,9 +13416,9 @@ P O
 清 O
 
 聊 B-TV
-斋 E-TV
-之 O
-花 B-TV
+斋 I-TV
+之 I-TV
+花 I-TV
 姑 I-TV
 子 E-TV
 1 O
@@ -13959,11 +13960,11 @@ d O
 僵 B-TV
 尸 I-TV
 先 I-TV
-生 E-TV
-2 O
-4 O
-之 O
-靈 B-TV
+生 I-TV
+2 I-TV
+4 I-TV
+之 I-TV
+靈 I-TV
 界 I-TV
 風 I-TV
 雲 E-TV
@@ -14336,8 +14337,8 @@ m O
 火 B-TV
 影 I-TV
 忍 I-TV
-者 E-TV
-疾 B-TV
+者 I-TV
+疾 I-TV
 风 I-TV
 传 E-TV
 剧 O
@@ -14866,9 +14867,9 @@ _ O
 
 熊 B-TV
 出 I-TV
-没 E-TV
-之 O
-雪 B-TV
+没 I-TV
+之 I-TV
+雪 I-TV
 岭 I-TV
 熊 I-TV
 风 E-TV
@@ -15382,8 +15383,8 @@ _ O
 
 游 B-TV
 戏 I-TV
-王 E-TV
-G B-TV
+王 I-TV
+G I-TV
 X E-TV
 - O
 1 O
@@ -15441,8 +15442,8 @@ S O
 
 奥 B-TV
 特 I-TV
-曼 E-TV
-格 B-TV
+曼 I-TV
+格 I-TV
 斗 I-TV
 进 I-TV
 化 E-TV
@@ -15747,9 +15748,9 @@ p O
 
 熊 B-TV
 出 I-TV
-没 E-TV
-之 O
-夺 B-TV
+没 I-TV
+之 I-TV
+夺 I-TV
 宝 I-TV
 熊 I-TV
 兵 E-TV
@@ -15813,9 +15814,9 @@ _ O
 5 O
 纪 O
 念 O
-邓 B-TV
-丽 I-TV
-君 E-TV
+邓 B-PER
+丽 I-PER
+君 E-PER
 逝 O
 世 O
 二 O
@@ -16387,9 +16388,9 @@ y O
 生 B-TV
 化 I-TV
 危 I-TV
-机 E-TV
-： O
-恶 B-TV
+机 I-TV
+： I-TV
+恶 I-TV
 化 E-TV
 　 O
 预 O
@@ -16455,9 +16456,9 @@ y O
 冰 B-TV
 河 I-TV
 世 I-TV
-纪 E-TV
-3 B-NUM
-恐 B-TV
+纪 I-TV
+3 I-TV
+恐 I-TV
 龙 I-TV
 的 I-TV
 黎 I-TV
@@ -16809,8 +16810,8 @@ D O
 2 O
 
 死 B-TV
-神 E-TV
-B B-TV
+神 I-TV
+B I-TV
 l I-TV
 e I-TV
 a I-TV
@@ -16843,9 +16844,9 @@ h E-TV
 阳 E-PER
 《 O
 给 O
-小 O
-沈 O
-阳 O
+小 B-PER
+沈 I-PER
+阳 E-PER
 的 O
 歌 O
 》 O
@@ -16864,8 +16865,8 @@ h E-TV
 火 B-TV
 影 I-TV
 忍 I-TV
-者 E-TV
-疾 B-TV
+者 I-TV
+疾 I-TV
 风 E-TV
 剧 O
 场 O

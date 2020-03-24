@@ -35,7 +35,7 @@ Test dataset
 
 For submission, please write the prediction result into a single file and email it to Xuefeng Yang (杨雪峰) email：ryan@wezhuiyi.com
 
-The submission file  format should be the same as the format of given dev dataset. To be specific, each sample is separated by a blank line and each char in sample is labelled by BIE format. All labels are B-TV, I-TV, E-TV, B-PER, I-PER, E-PER, B-NUM, I-NUM, E-NUM, and 0. 
+The submission file  format should be the same as the format of given dev dataset. To be specific, each sample is separated by a blank line and each char in sample is labelled by BIE format. All labels are B-TV, I-TV, E-TV, B-PER, I-PER, E-PER, B-NUM, I-NUM, E-NUM, and O. 
 
 For evaluation. all the system will be evaluated against 2000 test samples with full annotation. Ranking of submissions are based on the f1 score of these test samples.  
 
