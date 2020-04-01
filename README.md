@@ -29,10 +29,10 @@ Dev dataset
 Test dataset
 1. 2000 samples with full label
 
-
+## Baseline
+The evaluation provides a baseline system for participants. The solution is based on the paper "Better Modeling of Incomplete Annotations for Named Entity Recognition", please check the readme file in the baseline folder for more detail
 
 ## Submission & Evaluation
-
 For submission, please write the prediction result into a single file and email it to Xuefeng Yang (杨雪峰) email：ryan@wezhuiyi.com
 
 The submission file  format should be the same as the format of given dev dataset. To be specific, each sample is separated by a blank line and each char in sample is labelled by BIE format. All labels are B-TV, I-TV, E-TV, B-PER, I-PER, E-PER, B-NUM, I-NUM, E-NUM, and O. 
