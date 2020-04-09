@@ -1,7 +1,17 @@
 import sys
+import os
 
 
 def get_entities(tags):
+    # for the entity consisting not just one character, only the format like "B-TV E-TV" or "B-TV I-TV...E-TV" is valid.
+    # for the entity containing only a single character,for example "B-TV", it is considered
+    #     a single-character entity only if it is at the end of the sentence or the next character
+    #     does not belong to either "I-TV" or "E-TV".
+    # the single character like "I-TV", "E-PER" will not be considered a single-character entity, it must be "B-".
+    # the format like "B-TV I-TV...I-TV","I-TV...I-TV","I-TV...E-TV","B-TV E-PER", "B-TV I-TV...E-PER"
+    # "B-TV I-PER...E-TV" Will not be considered a Multi-character entity.(but the format like"B-TV I-PER...E-TV", the
+    # first character will be considered a single-character entity)
+    # you can change it if you want.
     entities = []
     ent_type = ''
     st = -1
@@ -9,6 +19,7 @@ def get_entities(tags):
         tag = tags[i]
         if '-' not in tag or tag.split('-')[1] != ent_type:
             ent_type = ''
+            st = -1
         if tag[0] == 'E' and tag.split('-')[1] == ent_type and st != -1:
             entities.append([st, i, ent_type])
             st = -1
@@ -16,6 +27,10 @@ def get_entities(tags):
         if tag[0] == 'B':
             st = i
             ent_type = tag.split('-')[1]
+            if i == len(tags) - 1 or (tags[i + 1] not in ['I-' + ent_type, 'E-' + ent_type]):
+                entities.append([st, st, ent_type])
+                st = -1
+                ent_type = ''
     return entities
 
 
@@ -33,21 +48,37 @@ def evaluate(pred_path, test_path):
     for i in range(len(test_data)):
         if test_data[i] == '' or test_data[i][0] == '\n':
             break
+        elif i > len(pred_data) - 1 or pred_data[i] == '' or pred_data[i][0] == '\n':
+            print('Some predictive samples are missed')
+            sys.exit(0)
         pred_sent, test_sent = pred_data[i].split('\n'), test_data[i].split('\n')
-        if pred_sent[-1] == '':
+        while len(pred_sent) > 0 and pred_sent[-1] == '':
             pred_sent.pop(-1)
-        if test_sent[-1] == '':
+        while len(test_sent) > 0 and test_sent[-1] == '':
             test_sent.pop(-1)
 
         pred_tags = [p.split(' ')[-1] for p in pred_sent]
+        for one in pred_sent:
+            if ' ' not in one:
+                print('Label missed')
+                sys.exit(0)
         test_tags = [t.split(' ')[-1] for t in test_sent]
 
-        for tag in pred_tags:
-            if tag not in all_labels:
-                print('Warning, there are a label should not exist: {}'.format(tag))
+        for id in range(len(pred_tags)):
+            tag = pred_tags[id]
+            if tag not in all_labels and tag != '':
+                print('Wrong label: {}'.format(tag))
+                sys.exit(0)
+            elif tag == '':
+                print('Label missed')
                 sys.exit(0)
 
         sent = [p[0] for p in pred_sent]
+        sent_1 = ''.join(sent)
+        sent_2 = ''.join([p[0] for p in test_sent])
+        if not sent_1 == sent_2:
+            print('Predictive samples are out of order')
+            sys.exit(1)
         assert len(pred_tags) == len(test_tags)
 
         pred_entities = get_entities(pred_tags)
@@ -102,34 +133,35 @@ if __name__ == '__main__':
 
     precision, recall, f1, pred_label, test_label, pred_right_label, pred_wrong_label, wrong_sample, miss_sample \
         = evaluate(pred_path, test_path)
-    print('Precision:{:.2f}, recall:{:.2f}, f1:{:.2f}'.format(precision * 100, recall * 100, f1 * 100))
+    print('Precision:{:.2f}, recall:{:.2f}, f1:{:.2f}\n'.format(precision * 100, recall * 100, f1 * 100))
     for ent_type in pred_label:
         print('Type {} predict {} entities, {} of it is right,and the gold data has {} entities in this type.'.format(
-            ent_type, pred_label[ent_type],pred_right_label[ent_type] if ent_type in pred_right_label.keys() else 0,
+            ent_type, pred_label[ent_type], pred_right_label[ent_type] if ent_type in pred_right_label.keys() else 0,
             test_label[ent_type] if ent_type in test_label.keys() else 0))
-    
-        
-    file = open('Wrong_sample.txt', 'w', encoding='utf-8')
-    file.write('In this sample text, the words in 《   》 means the entity you predict right.\n')
-    file.write('The words in 《*   *》 means the entity you predict wrong.\n')
-    file.write('##############################################################################\n')
-    for idx in range(len(wrong_sample)):
-        sent = wrong_sample[idx]
-        if idx % 2 == 0:
-            file.write('The wrong sample:  ' + sent + '\n')
-        else:
-            file.write('The gold sample:  ' + sent + '\n\n')
-    file.close()
-    print('The wrong sample have been saved as Wrong_sample.txt')
-        
-    file = open('Missed_sample.txt', 'w', encoding='utf-8')
-    file.write('In this sample text, the words in 《   》 means the entity you predict right.\n')
-    file.write('The words in 《#   #》 means the entity you missed.\n')
-    file.write('##############################################################################\n')
-    for sent in miss_sample:
-        file.write(sent + '\n\n')
-    file.close()
-    print('The missing sample have been saved as Missed_sample.txt')
-    
+
+    if 1:
+        p = pred_path + '.wrong'
+        file = open(p, 'w', encoding='utf-8')
+        file.write('In this sample text, the words in 《   》 means the entity you predict right.\n')
+        file.write('The words in 《*   *》 means the entity you predict wrong.\n')
+        file.write('##############################################################################\n')
+        for idx in range(len(wrong_sample)):
+            sent = wrong_sample[idx]
+            if idx % 2 == 0:
+                file.write('The wrong sample:  ' + sent + '\n')
+            else:
+                file.write('The gold sample:  ' + sent + '\n\n')
+        file.close()
+        print('\nThe wrong sample have been saved as {}'.format(p))
+
+        p = pred_path + '.missing'
+        file = open(p, 'w', encoding='utf-8')
+        file.write('In this sample text, the words in 《   》 means the entity you predict right.\n')
+        file.write('The words in 《#   #》 means the entity you missed.\n')
+        file.write('##############################################################################\n')
+        for sent in miss_sample:
+            file.write(sent + '\n\n')
+        file.close()
+        print('The missing sample have been saved as {}'.format(p))
 
 
