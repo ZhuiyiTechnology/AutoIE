@@ -3,34 +3,23 @@ import os
 
 
 def get_entities(tags):
-    # for the entity consisting not just one character, only the format like "B-TV E-TV" or "B-TV I-TV...E-TV" is valid.
-    # for the entity containing only a single character,for example "B-TV", it is considered
-    #     a single-character entity only if it is at the end of the sentence or the next character
-    #     does not belong to either "I-TV" or "E-TV".
-    # the single character like "I-TV", "E-PER" will not be considered a single-character entity, it must be "B-".
-    # the format like "B-TV I-TV...I-TV","I-TV...I-TV","I-TV...E-TV","B-TV E-PER", "B-TV I-TV...E-PER"
-    # "B-TV I-PER...E-TV" Will not be considered a Multi-character entity.(but the format like"B-TV I-PER...E-TV", the
-    # first character will be considered a single-character entity)
-    # you can change it if you want.
+    # for the entity consisting not just one character, only the format like "BE" or "BI...E" is valid.
+    # and the entity type is determined by the entity type of label "E", it means:"B-TV E-PER" will be considered a PER entity.
+    # for the entity containing single character, it is considered a single-character entity
+    #     only if it is at the end of the sentence or the next character is "B" or "O",
+    #     it means only "BB" or "BO" will be considered as a single-character entity.
+    # you may change the inference rule.
     entities = []
-    ent_type = ''
     st = -1
     for i in range(len(tags)):
         tag = tags[i]
-        if '-' not in tag or tag.split('-')[1] != ent_type:
-            ent_type = ''
-            st = -1
-        if tag[0] == 'E' and tag.split('-')[1] == ent_type and st != -1:
-            entities.append([st, i, ent_type])
-            st = -1
-            ent_type = ''
+        if tag[0] == 'E' and st != -1:
+            entities.append([st, i, tag[2:]])
         if tag[0] == 'B':
             st = i
-            ent_type = tag.split('-')[1]
-            if i == len(tags) - 1 or (tags[i + 1] not in ['I-' + ent_type, 'E-' + ent_type]):
-                entities.append([st, st, ent_type])
+            if i == len(tags) - 1 or (tags[i + 1][0] in ['O', 'B']):
+                entities.append([st, st, tag[2:]])
                 st = -1
-                ent_type = ''
     return entities
 
 
