@@ -1,0 +1,5 @@
+{"query":"大话西游主演周星驰","PER":[{"str":"周星驰","start_position":6,"end_position":8}],"TV":[{ "str":"大话西游","start_position":0, "end_position":3}]}
+{"query":"海贼王顶上战争","TV":[{"str":"海贼王","start_position":0,"end_position":2}]}
+{"query":"网球王子x排球少年","TV":[{"str":"网球王子","start_position":0,"end_position":3},{"str":"排球少年","start_position":5,"end_position":8}]}
+{"query":"钢铁侠1:小罗伯特·唐尼的演艺生涯第二春","TV":[{ "str":"钢铁侠","start_position":0,"end_position":2}],"PER":[{"str":"小罗伯特·唐尼","start_position":5,"end_position":11}],"NUM":[{"str":"1","start_position":3,"end_position":3}]}
+{"query":"荒野大镖客:救赎实况解说"}

@@ -62,7 +62,7 @@ def evaluate_batch_insts(batch_insts: List[Instance],
                 start = i
                 if i == len(output) - 1 or output[i + 1].startswith("B-") or output[i + 1].startswith("O"):
                     output_spans.add(Span(i, i, output[i][2:]))
-            if output[i].startswith("E-"):
+            if output[i].startswith("E-") and start != -1:
                 end = i
                 output_spans.add(Span(start, end, output[i][2:]))
         predict_spans = set()
@@ -71,7 +71,7 @@ def evaluate_batch_insts(batch_insts: List[Instance],
                 start = i
                 if i == len(prediction) - 1 or prediction[i + 1].startswith("B-") or prediction[i + 1].startswith("O"):
                     predict_spans.add(Span(i, i, prediction[i][2:]))
-            if prediction[i].startswith("E-"):
+            if prediction[i].startswith("E-") and start != -1:
                 end = i
                 predict_spans.add(Span(start, end, prediction[i][2:]))
 
