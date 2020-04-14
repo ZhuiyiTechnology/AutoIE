@@ -35,11 +35,11 @@ The evaluation provides a baseline system for participants. The solution is base
 ## Submission & Evaluation
 For submission, please write the prediction result into a single file and email it to Xuefeng Yang (杨雪峰) email：ryan@wezhuiyi.com
 
-The submission file  format should be the same as the format of given dev dataset. To be specific, each sample is separated by a blank line and each char in sample is labelled by BIE format. All labels are B-TV, I-TV, E-TV, B-PER, I-PER, E-PER, B-NUM, I-NUM, E-NUM, and O. 
+The submission file  format should be the same as given submission_sample.txt file. To be specific, each line is a json string containing the prediction result of one sample. 
 
 For evaluation. all the system will be evaluated against 2000 test samples with full annotation. Ranking of submissions are based on the f1 score of these test samples.  
 
-A eval.py script is provided to calculate the accuracy and valid prediction format. You may use the script like this " python3 eval.py your_prediction_file_path gold_standard_file_path ".
+A eval.py script is provided to do entity inference and evaluation. You may use the script like this " python3 eval.py your_prediction_file_path gold_standard_file_path ".
 
 ## Organizers: 
 
