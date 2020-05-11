@@ -37,9 +37,9 @@ For submission, please write the prediction result into a single file and email 
 
 The submission file  format should be the same as given YourTeamName.json file under Submission folder. To be specific, each line is a json string containing the prediction result of one sample. 
 
-For evaluation. all the system will be evaluated against 2000 test samples with full annotation. Ranking of submissions are based on the f1 score of these test samples.  
+For evaluation. all the system will be evaluated against 2000 test samples with full annotation. Ranking of submissions are based on the f1 score of these test samples.  The test dataset includes 2000 real test samples and 8000 mixed samples, the score is only based on the prediction of the real 2000 samples.
 
-The test dataset will be provided in 2020/05/13, and each team has three oppotunities to submit their results in the week 05/13--05/20. The results are public available in this github page and ranked by the f1 score.
+The test dataset will be provided in 2020/05/15, and each team has three oppotunities to submit their results in the week 05/15--05/20. The results are public available in this github page and ranked by the f1 score.
 
 ## Organizers: 
 
