@@ -35,11 +35,11 @@ The evaluation provides a baseline system for participants. The solution is base
 ## Submission & Evaluation
 For submission, please write the prediction result into a single file and email it to Xuefeng Yang (杨雪峰) email：ryan@wezhuiyi.com
 
-The submission file  format should be the same as given submission_sample.txt file. To be specific, each line is a json string containing the prediction result of one sample. 
+The submission file  format should be the same as given YourTeamName.json file under Submission folder. To be specific, each line is a json string containing the prediction result of one sample. 
 
 For evaluation. all the system will be evaluated against 2000 test samples with full annotation. Ranking of submissions are based on the f1 score of these test samples.  
 
-A eval.py script is provided to do entity inference and evaluation. You may use the script like this " python3 eval.py your_prediction_file_path gold_standard_file_path ".
+The test dataset will be provided in 2020/05/13, and each team has three oppotunities to submit their results in the week 05/13--05/20. The results are public available in this github page and ranked by the f1 score.
 
 ## Organizers: 
 
