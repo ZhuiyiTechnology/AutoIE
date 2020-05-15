@@ -3,9 +3,9 @@
 
 ## Leaderboard
 
-| TeamName | Organization | F1-score |
-| :---         |     :---:      |          ---: |
-| BaselineSystem   | NLPCC | 63.98 |
+| Rank | TeamName | Organization | F1-score |
+| --- | :---         |     :---:      |          ---: |
+| 1 | BaselineSystem   | NLPCC | 63.98 |
                                 
 ## Background
 
