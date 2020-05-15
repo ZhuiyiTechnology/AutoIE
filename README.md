@@ -5,7 +5,10 @@
 
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
-| 1 | BaselineSystem   | NLPCC | 63.98 |
+| 1 | Sophie | 搜狗杭州研究院知识图谱组 | 83.05 |
+| 2 | Hermers | 武汉汉王大数据 | 70.98 |
+| 3 | yunke_ws | 加拿大皇后大学 | 69.23 |
+| 4 | BaselineSystem   | NLPCC | 63.98 |
                                 
 ## Background
 
