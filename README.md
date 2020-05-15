@@ -1,7 +1,12 @@
 
 # NLPCC-2020 Shared Task on AutoIE
 
-                                                                  
+## Leaderboard
+
+| TeamName | Organization | F1-score |
+| :---         |     :---:      |          ---: |
+| BaselineSystem   | NLPCC | 63.98 |
+                                
 ## Background
 
 Entity extraction is the fundamental problem in language technology, and usually utilized as inputs for many downstream tasks, especially dialogue system, question answering etc. Most previous work focus on the scenario that labelled data is provided for interesting entities, however, the categories of entities are hierarchical and cannot be exhausted, the general solution cannot depend on the hypothesis that enough data with label is given. Therefore, how to build IE system for new entity type under low resource is becoming the common problem for both academic and industry.        
