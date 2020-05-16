@@ -6,9 +6,15 @@
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
 | 1 | Sophie | 搜狗杭州研究院知识图谱组 | 83.05 |
-| 2 | Hermers | 武汉汉王大数据 | 70.98 |
-| 3 | yunke_ws | 加拿大皇后大学 | 69.23 |
-| 4 | BaselineSystem   | NLPCC | 63.98 |
+| 2 | 一只小绵羊 | 北京语言大学 | 82.77 |
+| 3 | Hair Loss Knight | 美团点评NLP中心 | 77.55 |
+| 4 | BUTAUTOJ | 北京工业大学信息学部 | 76.45 |
+| 5 | augmented_autoner | PATech | 75.01 |
+| 6 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 73.97 |
+| 7 | yunke_ws | 加拿大皇后大学 | 71.96 |
+| 8 | Hermers | 武汉汉王大数据 | 70.98 |
+| 9 | BaselineSystem   | NLPCC | 63.98 |
+| 10 | FIGHTING | 大连民族大学 | 52.73 |
                                 
 ## Background
 
