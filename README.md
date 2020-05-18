@@ -8,15 +8,16 @@
 | 1 | Sophie | 搜狗杭州研究院知识图谱组 | 83.05 |
 | 2 | 一只小绵羊 | 北京语言大学 | 82.77 |
 | 3 | Hermers | 武汉汉王大数据 | 82.23 |
-| 4 | Hair Loss Knight | 美团点评NLP中心 | 77.55 |
-| 5 | BUTAUTOJ | 北京工业大学信息学部 | 76.45 |
-| 6 | Yulong | 武汉大学 | 76.06 |
+| 4 | Yulong | 武汉大学 | 77.85 |
+| 5 | Hair Loss Knight | 美团点评NLP中心 | 77.55 |
+| 6 | BUTAUTOJ | 北京工业大学信息学部 | 76.45 |
 | 7 | augmented_autoner | PATech | 75.01 |
 | 8 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 73.97 |
 | 9 | yunke_ws | 加拿大皇后大学 | 71.96 |
 | 10 | 小牛队 | 东北大学自然语言处理实验室 | 69.71 |
-| 11 | BaselineSystem   | NLPCC | 63.98 |
-| 12 | FIGHTING | 大连民族大学 | 52.73 |
+| 11 | FIGHTING | 大连民族大学 | 65.16 |
+| 12 | BaselineSystem   | NLPCC | 63.98 |
+
 
 ## Leaderboard without Valid Data
 
