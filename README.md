@@ -5,19 +5,20 @@
 
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
-| 1 | Sophie | 搜狗杭州研究院知识图谱组 | 83.05 |
-| 2 | 一只小绵羊 | 北京语言大学 | 82.77 |
-| 3 | Hermers | 武汉汉王大数据 | 82.23 |
-| 4 | AI surfing   | Nanjing University of Posts and Telecommunications | 79.31 |
-| 5 | Yulong | 武汉大学 | 77.85 |
-| 6 | Hair Loss Knight | 美团点评NLP中心 | 77.55 |
-| 7 | BUTAUTOJ | 北京工业大学信息学部 | 76.45 |
-| 8 | augmented_autoner | PATech | 75.01 |
-| 9 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 73.97 |
-| 10 | yunke_ws | 加拿大皇后大学 | 71.96 |
-| 11 | 小牛队 | 东北大学自然语言处理实验室 | 69.71 |
-| 12 | FIGHTING | 大连民族大学 | 65.16 |
-| 13 | BaselineSystem   | NLPCC | 63.98 |
+| 1 | Hair Loss Knight | 美团点评NLP中心 | 84.02 |
+| 2 | Sophie | 搜狗杭州研究院知识图谱组 | 83.05 |
+| 3 | 一只小绵羊 | 北京语言大学 | 82.77 |
+| 4 | Hermers | 武汉汉王大数据 | 82.23 |
+| 5 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
+| 6 | Circle | 北京林业大学 | 79.66 |
+| 7 | AI surfing   | Nanjing University of Posts and Telecommunications | 78.80 |
+| 8 | Yulong | 武汉大学 | 77.84 |
+| 9 | 小牛队 | 东北大学自然语言处理实验室 | 75.24 |
+| 10 | augmented_autoner | PATech | 75.01 |
+| 11 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 74.84 |
+| 12 | yunke_ws | 加拿大皇后大学 | 71.96 |
+| 13 | FIGHTING | 大连民族大学 | 65.16 |
+| 14 | BaselineSystem   | NLPCC | 63.98 |
 
 
 
@@ -27,6 +28,7 @@
 | --- | :---         |     :---:      |          ---: |
 | 1 | Hair Loss Knight | 美团点评NLP中心 | 77.32 |
 | 2 | Hermers | 武汉汉王大数据 | 71.86 |
+| 3 | Circle | 北京林业大学 | 66.27 |
 | 3 | BaselineSystem   | NLPCC | 63.98 |
                                 
 ## Background
