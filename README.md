@@ -5,9 +5,9 @@
 
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
-| 1 | Hair Loss Knight | 美团点评NLP中心 | 84.02 |
-| 2 | Sophie | 搜狗杭州研究院知识图谱组 | 83.73 |
-| 3 | 一只小绵羊 | 北京语言大学 | 82.77 |
+| 1 | 一只小绵羊 | 北京语言大学 | 84.10 |
+| 2 | Hair Loss Knight | 美团点评NLP中心 | 84.02 |
+| 3 | Sophie | 搜狗杭州研究院知识图谱组 | 83.73 |
 | 4 | Hermers | 武汉汉王大数据 | 82.23 |
 | 5 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
 | 6 | AI surfing | Nanjing University of Posts and Telecommunications | 80.28 |
@@ -15,14 +15,12 @@
 | 8 | Circle | 北京林业大学 | 79.66 |
 | 9 | Yulong | 武汉大学 | 77.84 |
 | 10 | 小牛队 | 东北大学自然语言处理实验室 | 75.24 |
-| 11 | augmented_autoner | PATech | 75.01 |
+| 11 | augmented_autoner | PATech | 75.09 |
 | 12 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 74.84 |
 | 13 | AutoIE_ISCAS | Institute of Software, Chinese Academy of Sciences | 74.59 |
 | 14 | yunke_ws | 加拿大皇后大学 | 71.96 |
 | 15 | FIGHTING | 大连民族大学 | 65.16 |
 | 16 | BaselineSystem   | NLPCC | 63.98 |
-
-
 
 ## Leaderboard without Valid Data
 
@@ -30,6 +28,7 @@
 | --- | :---         |     :---:      |          ---: |
 | 1 | Hair Loss Knight | 美团点评NLP中心 | 77.32 |
 | 2 | Hermers | 武汉汉王大数据 | 71.86 |
+| 3 | augmented_autoner | PATech | 71.69 |
 | 3 | Circle | 北京林业大学 | 66.27 |
 | 3 | BaselineSystem   | NLPCC | 63.98 |
                                 
