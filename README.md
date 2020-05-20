@@ -13,12 +13,12 @@
 | 6 | Hermers | 武汉汉王大数据 | 82.23 |
 | 7 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
 | 8 | Circle | 北京林业大学 | 80.80 |
-| 9 | AI surfing | Nanjing University of Posts and Telecommunications | 80.28 |
-| 10 | Yulong | 武汉大学 | 79.52 |
-| 11 | 小牛队 | 东北大学自然语言处理实验室 | 78.64 |
-| 12 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 75.20 |
-| 13 | AutoIE_ISCAS | Institute of Software, Chinese Academy of Sciences | 74.59 |
-| 14 | yunke_ws | 加拿大皇后大学 | 71.96 |
+| 9 | yunke_ws | 加拿大皇后大学 | 80.34 |
+| 10 | AI surfing | Nanjing University of Posts and Telecommunications | 80.28 |
+| 11 | Yulong | 武汉大学 | 79.52 |
+| 12 | 小牛队 | 东北大学自然语言处理实验室 | 78.64 |
+| 13 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 75.20 |
+| 14 | AutoIE_ISCAS | Institute of Software, Chinese Academy of Sciences | 74.59 |
 | 15 | FIGHTING | 大连民族大学 | 69.75 |
 | 16 | ENCH | DCD Lab Zhejiang University | 67.70 |
 | 17 | BaselineSystem   | NLPCC | 63.98 |
@@ -31,9 +31,10 @@
 | 1 | Hair Loss Knight | 美团点评NLP中心 | 77.32 |
 | 2 | Hermers | 武汉汉王大数据 | 71.86 |
 | 3 | augmented_autoner | PATech | 71.70 |
-| 4 | Circle | 北京林业大学 | 68.59 |
-| 5 | 小牛队 | 东北大学自然语言处理实验室 | 65.91 |
-| 6 | BaselineSystem   | NLPCC | 63.98 |
+| 4 | yunke_ws | 加拿大皇后大学 | 69.24 |
+| 5 | Circle | 北京林业大学 | 68.59 |
+| 6 | 小牛队 | 东北大学自然语言处理实验室 | 65.91 |
+| 7 | BaselineSystem   | NLPCC | 63.98 |
                                 
 ## Background
 
