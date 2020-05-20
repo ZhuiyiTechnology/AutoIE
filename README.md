@@ -6,7 +6,7 @@
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
 | 1 | Hair Loss Knight | 美团点评NLP中心 | 84.02 |
-| 2 | Sophie | 搜狗杭州研究院知识图谱组 | 83.05 |
+| 2 | Sophie | 搜狗杭州研究院知识图谱组 | 83.73 |
 | 3 | 一只小绵羊 | 北京语言大学 | 82.77 |
 | 4 | Hermers | 武汉汉王大数据 | 82.23 |
 | 5 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
