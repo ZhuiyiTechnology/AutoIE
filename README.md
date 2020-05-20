@@ -16,11 +16,11 @@
 | 9 | Circle | 北京林业大学 | 79.66 |
 | 10 | Yulong | 武汉大学 | 77.84 |
 | 11 | 小牛队 | 东北大学自然语言处理实验室 | 75.24 |
-| 12 | augmented_autoner | PATech | 75.09 |
-| 13 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 74.84 |
+| 12 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 75.20 |
+| 13 | augmented_autoner | PATech | 75.09 |
 | 14 | AutoIE_ISCAS | Institute of Software, Chinese Academy of Sciences | 74.59 |
 | 15 | yunke_ws | 加拿大皇后大学 | 71.96 |
-| 16 | FIGHTING | 大连民族大学 | 65.16 |
+| 16 | FIGHTING | 大连民族大学 | 69.75 |
 | 17 | BaselineSystem   | NLPCC | 63.98 |
 
 ## Leaderboard without Valid Data
