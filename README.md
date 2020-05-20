@@ -9,19 +9,19 @@
 | 2 | Sophie | 搜狗杭州研究院知识图谱组 | 83.73 |
 | 3 | 一只小绵羊 | 北京语言大学 | 82.78 |
 | 4 | Null | 中国科学院自动化研究所 | 82.50 |
-| 4 | Hermers | 武汉汉王大数据 | 82.23 |
-| 5 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
-| 6 | AI surfing | Nanjing University of Posts and Telecommunications | 80.28 |
-| 7 | STAM | 中国科学院信息工程研究所 | 80.24 |
-| 8 | Circle | 北京林业大学 | 79.66 |
-| 9 | Yulong | 武汉大学 | 77.84 |
-| 10 | 小牛队 | 东北大学自然语言处理实验室 | 75.24 |
-| 11 | augmented_autoner | PATech | 75.09 |
-| 12 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 74.84 |
-| 13 | AutoIE_ISCAS | Institute of Software, Chinese Academy of Sciences | 74.59 |
-| 14 | yunke_ws | 加拿大皇后大学 | 71.96 |
-| 15 | FIGHTING | 大连民族大学 | 65.16 |
-| 16 | BaselineSystem   | NLPCC | 63.98 |
+| 5 | Hermers | 武汉汉王大数据 | 82.23 |
+| 6 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
+| 7 | AI surfing | Nanjing University of Posts and Telecommunications | 80.28 |
+| 8 | STAM | 中国科学院信息工程研究所 | 80.24 |
+| 9 | Circle | 北京林业大学 | 79.66 |
+| 10 | Yulong | 武汉大学 | 77.84 |
+| 11 | 小牛队 | 东北大学自然语言处理实验室 | 75.24 |
+| 12 | augmented_autoner | PATech | 75.09 |
+| 13 | Auto-IE | 北京航空航天大学计算机系实体抽取组 | 74.84 |
+| 14 | AutoIE_ISCAS | Institute of Software, Chinese Academy of Sciences | 74.59 |
+| 15 | yunke_ws | 加拿大皇后大学 | 71.96 |
+| 16 | FIGHTING | 大连民族大学 | 65.16 |
+| 17 | BaselineSystem   | NLPCC | 63.98 |
 
 ## Leaderboard without Valid Data
 
