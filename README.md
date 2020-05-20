@@ -31,7 +31,7 @@
 | 1 | Hair Loss Knight | 美团点评NLP中心 | 77.32 |
 | 2 | Hermers | 武汉汉王大数据 | 71.86 |
 | 3 | augmented_autoner | PATech | 71.70 |
-| 4 | Circle | 北京林业大学 | 66.27 |
+| 4 | Circle | 北京林业大学 | 68.59 |
 | 5 | 小牛队 | 东北大学自然语言处理实验室 | 65.91 |
 | 6 | BaselineSystem   | NLPCC | 63.98 |
                                 
