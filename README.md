@@ -5,12 +5,12 @@
 
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
-| 1 | Hair Loss Knight | 美团点评NLP中心 | 84.02 |
-| 2 | Sophie | 搜狗杭州研究院知识图谱组 | 83.73 |
-| 3 | augmented_autoner | PATech | 82.88 |
-| 4 | 一只小绵羊 | 北京语言大学 | 82.78 |
-| 5 | STAM | 中国科学院信息工程研究所 | 82.50 |
-| 6 | Hermers | 武汉汉王大数据 | 82.23 |
+| 1 | Sophie | 搜狗杭州研究院知识图谱组 | 85.00 |
+| 2 | Hair Loss Knight | 美团点评NLP中心 | 84.87 |
+| 3 | Hermers | 武汉汉王大数据 | 84.75 |
+| 4 | augmented_autoner | PATech | 82.88 |
+| 5 | 一只小绵羊 | 北京语言大学 | 82.78 |
+| 6 | STAM | 中国科学院信息工程研究所 | 82.50 |
 | 7 | BUTAUTOJ | 北京工业大学信息学部 | 80.91 |
 | 8 | Circle | 北京林业大学 | 80.80 |
 | 9 | yunke_ws | 加拿大皇后大学 | 80.34 |
@@ -23,18 +23,18 @@
 | 16 | ENCH | DCD Lab Zhejiang University | 67.70 |
 | 17 | BaselineSystem   | NLPCC | 63.98 |
 
-
 ## Leaderboard without Valid Data
 
 | Rank | TeamName | Organization | F1-score |
 | --- | :---         |     :---:      |          ---: |
 | 1 | Hair Loss Knight | 美团点评NLP中心 | 77.32 |
-| 2 | Hermers | 武汉汉王大数据 | 71.86 |
-| 3 | augmented_autoner | PATech | 71.70 |
-| 4 | yunke_ws | 加拿大皇后大学 | 69.24 |
-| 5 | Circle | 北京林业大学 | 68.59 |
-| 6 | 小牛队 | 东北大学自然语言处理实验室 | 65.91 |
-| 7 | BaselineSystem   | NLPCC | 63.98 |
+| 2 | yunke_ws | 加拿大皇后大学 | 71.96 |
+| 3 | Hermers | 武汉汉王大数据 | 71.86 |
+| 4 | augmented_autoner | PATech | 71.70 |
+| 5 | ENCH | DCD Lab Zhejiang University | 70.71 |
+| 6 | Circle | 北京林业大学 | 68.59 |
+| 7 | 小牛队 | 东北大学自然语言处理实验室 | 65.91 |
+| 8 | BaselineSystem   | NLPCC | 63.98 |
                                 
 ## Background
 
